@@ -1,0 +1,326 @@
+ body{
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     margin: 0;
+ }
+ 
+ #mainContainer{
+     width: 96vw;
+     min-height: 100vh;
+     border: 1px solid black;
+     margin-left: 1%;
+ }
+ .navBar{
+     width: 100%;
+     min-height: 50px;
+     background-color: black;
+ }
+ .slideImages{
+     width: 100%;
+     height: 290px;
+     border: 1px solid red;
+     margin-top: 50px;
+ }
+ .textFrame{
+     width: 100%;
+     min-height: 200px;
+     background-color: silver;
+     margin-top: 50px;
+ }
+ .textHeading{
+     text-align: center;
+     font-size: 24px;
+ }
+ .mainText{
+     text-align: justify;
+     padding: 10px;
+ }
+ /* dress frame */
+ .dressFrame{
+     width: 100%;
+     min-height: 350px;
+     border: 1px solid yellow;
+     margin-top: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ .dressHeading{
+     border: 1px solid black;
+     padding: 20px;
+ }
+ .dressText{
+     border: 1px solid black;
+     padding: 10px;
+     width: 90%;
+ }
+ /* dress display frame for each rectangle with image, text & link */
+ .dressDisplayFrame{
+    width: 94%;
+    min-height: 280px;
+    border: 1px solid royalblue;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+ }
+
+ .dressDisplay{
+     width: 300px;
+     min-height: 260px;
+     border: 1px solid black;
+ }
+ .dressImage{
+     width: 100%;
+     height: 110px;
+     background-color: skyblue;
+ }
+ .dressInsideText{
+     text-align: justify;
+     padding: 10px;
+ }
+ .dressLink{
+     text-align: center;
+ }
+ .dressLink a{
+    text-decoration: none;
+    color: black;
+ }
+ .dressLink a:hover{
+     color: green;
+ }
+
+ /* trousers frame */
+ .trousersFrame{
+    width: 100%;
+    min-height: 350px;
+    border: 1px solid yellow;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.trousersHeading{
+    border: 1px solid black;
+    padding: 20px;
+}
+.trousersText{
+    border: 1px solid black;
+    padding: 10px;
+    width: 90%;
+}
+/* trousers display frame for each rectangle with image, text & link */
+.trousersDisplayFrame{
+    width: 94%;
+    min-height: 280px;
+    border: 1px solid royalblue;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+ }
+ .trousersDisplay{
+    width: 300px;
+    min-height: 260px;
+    border: 1px solid black;
+}
+.trousersImage{
+    width: 100%;
+    height: 110px;
+    background-color: skyblue;
+}
+.trousersInsideText{
+    text-align: justify;
+    padding: 10px;
+}
+.trousersLink{
+    text-align: center;
+}
+.trousersLink a{
+   text-decoration: none;
+   color: black;
+}
+.trousersLink a:hover{
+    color: green;
+}
+
+/* accessories frame */
+
+.accessoriesFrame{
+    width: 100%;
+    min-height: 350px;
+    border: 1px solid yellow;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.accessoriesHeading{
+    border: 1px solid black;
+    padding: 20px;
+}
+.accessoriesText{
+    border: 1px solid black;
+    padding: 10px;
+    width: 90%;
+}
+/* accessories display frame for each rectangle with image, text & link */
+.accessoriesDisplayFrame{
+    width: 94%;
+    min-height: 280px;
+    border: 1px solid royalblue;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 1%;
+ }
+ .accessoriesDisplay{
+    width: 300px;
+    min-height: 260px;
+    border: 1px solid black;
+}
+.accessoriesImage{
+    width: 100%;
+    height: 110px;
+    background-color: skyblue;
+}
+.accessoriesInsideText{
+    text-align: justify;
+    padding: 10px;
+}
+.accessoriesLink{
+    text-align: center;
+}
+.accessoriesLink a{
+   text-decoration: none;
+   color: black;
+}
+.accessoriesLink a:hover{
+    color: green;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    min-height: 120px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.footerFrame{
+    width: 50%;
+    min-height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 90px;
+}
+.footerFrame .footerLinks a {
+ text-decoration: none;
+ color: white;
+}
+.footerFrame .footerLinks a:hover{
+    color: green;
+}
+.footer p {
+    color: white;
+}
+ 
+
+/* mediaquery */
+@media only screen and (max-width: 600px) {
+    body {
+        width: 100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #mainContainer{
+        width: 98%;
+        min-height: 100vh;
+        margin-left: 1%;
+    }
+    .dressFrame{
+        width: 100%;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .dressDisplayFrame{
+        width: 90%;
+        min-height: 350px;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .dressImage{
+        height: 200px;
+    }
+    .dressDisplay{
+        width: 100%;
+        margin-top: 12px;
+    }
+    /* trousers small screen styling */
+    .trousersFrame{
+        width: 100%;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .trousersDisplayFrame{
+        width: 90%;
+        min-height: 350px;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .trousersDisplay{
+        width: 100%;
+        margin-top: 12px;
+    }
+    .trousersImage{
+        height: 200px;
+    }
+    /* accessories small screen styling */
+    .accessoriesFrame{
+        width: 100%;
+        min-height: 350px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .accessoriesDisplayFrame{
+        width: 90%;
+        min-height: 350px;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .accessoriesDisplay{
+        width: 100%;
+        margin-top: 12px;
+    }
+    .accessoriesImage{
+        height: 200px;
+    }
+  }
