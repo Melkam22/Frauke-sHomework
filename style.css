@@ -11,35 +11,35 @@
      padding: 0;
      margin: 0;    
  }
- .navBar{
+ /* .navBar{
      width: 100%;
      min-height: 90px;
-     background-color: black;
- }
+     background-color: green;
+ } */
  .slideImages{
      width: 100%;
-     height: 350px;
+     height: 550px;
      margin-top: 50px;
  } 
  #carouselExampleFade{
     width: 100%;
-    height: 350px;
+    height: 550px;
  }
  .carousel-inner{
     width: 100%;
-    height: 350px;
+    height: 550px;
  }
  .carousel-item img{
     width: 100%;
-    height: 350px;
+    height: 550px;
  }  
  
  .textFrame{
-     width: 94%;
-     min-height: 200px;
+     width: 96%;
+     min-height: 280px;
      box-shadow: 2px 3px 4px black;
      margin-top: 50px;
-     margin-left: 3%;
+     margin-left: 2%;
      background: rgba(3,45,77,.2);
  }
  .textHeading{
@@ -230,6 +230,17 @@
 }
 .accessoriesLink a:hover{
     color: green;
+}
+/* to top */
+.gotoTop{
+    position: absolute;
+    bottom: 100px;
+    margin-left: 50px;
+    position: fixed;
+}
+.gotoTop a{
+    font-size: 30px;
+    color: skyblue;
 }
 
 /* footer */
