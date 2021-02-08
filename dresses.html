@@ -9,58 +9,55 @@
     body{
         width: 100%;
         height: 100%;
-        padding: 0;
         margin: 0;
-        }
-    #mainContainer{
-        width: 94vw;
-        height: 96vh;
-        margin-left: 3%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        /* justify-content: space-evenly; */
-        margin-top: 2%;
-        }
-        .dress{
-            width: 520px;
-            height: 400px;
-            /* box-shadow: 1px 0px 2px black; */
-            margin-right: 5%;
-            margin-left: 2%;
-            margin-top: 2%;
-            display: flex;
-            flex-direction: column;
-        }
-        h1{
-            text-align: center;
-        }
-        /* first dress */
-        /* .dress{
-            display: flex;
-            flex-direction: column;
-        } */
-        .dressImage img{
-            width: 100%;
-            height: 280px;
-            border-radius: 5%;
-        }
-        .dressText p{
-            padding: 10px;
-            text-align: justify;
-            background: rgba(2,44,2,.2);
-        }
-        /* goback link */
-        a{
-            color: black;
-            position: relative;
-            margin-left: 90%;
-            margin-bottom: 2%;
-        }
-        a:hover{
-            color: green;
-        }
-        /* footer */
+        padding: 0;
+    }
+    h1{
+        text-align: center;
+    }
+    a{
+        color: black;
+        position: relative;
+        left: 80%;
+    }
+    a:hover{
+        color: green;
+    }
+    #mainSection{
+     width: 100vw;
+     min-height: 100vh;
+     padding: 0;
+     margin: 0; 
+    }
+    .dressesFrame{
+    width: 94%;
+    min-height: 90vh;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 2px solid blue;
+    }
+    .dress{
+     width: 500px;
+     min-height: 260px;
+     box-shadow: 2px 3px 4px black;
+     margin-top: 1%;
+     display: flex;
+     flex-direction: column;
+    }
+    .dressImage img{
+        width: 100%;
+        height: 220px;
+    }
+    .dressText p{
+        padding: 15px;
+    }
+
+
+    /* footer */
 .footer{
     width: 100%;
     min-height: 120px;
@@ -88,107 +85,74 @@
 .footer p {
     color: white;
 }
-        /* mediaquery */
-
-/* @media (max-width: 600px) and (min-width: 900px) { */
+/* mediaquery */
 @media screen and (min-width: 400px) and (max-width: 1000px){
-/* @media only screen and (max-width: 600px) { */
-    body {
-        width: 100%;
-        height: 90%;
-        padding: 0;
-        margin: 0;
+    .dressesFrame{
+        margin-left: 1%;
     }
-    #mainContainer{
-        width: 96vw;
-        min-height: 100vh;
-        display: flex;
-        flex-direction: row;  
-        flex-wrap: wrap;
-        margin-left: 2%;
-    }
-    .dress{
-            width: 100%;
-            height: 400px;
-            /* box-shadow: 1px 2px 2px black; */
-        }
-    .footer{
-    width: 100%;
-    min-height: 120px;
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    position: absolute;
-    bottom: -130%;
-    margin-top: 100px;
 }
-} 
+
     </style>
+     
 </head>
 <body>
     <h1>Dresses in Detail</h1>
     <!-- goback link -->
     <a href="index.html"><i class="fa fa-home fa-3x" aria-hidden="true"></i>
     </a>  
-    <div id="mainContainer">
-        <!-- one -->
-        <div class="dress">
-            <div class="dressImage"><img src="images/ethioPic1.jpg" alt=""></div>
-            <div class="dressText">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit eaque ipsa debitis consequuntur 
-                    maiores error ullam nemo, earum, porro laudantium, blanditiis cumque dolore temporibus aperiam illum 
-                    neque recusandae excepturi.</p>
+    <!-- main frame -->
+    <section id="mainSection">
+        <div class="dressesFrame">
+            <!-- each dress box -->
+            <!-- one -->
+            <div class="dress">
+                <div class="dressImage"><img src="images/ethioPic1.jpg" alt=""> </div>
+                <div class="dressText">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, veniam aspernatur reiciendis 
+                        doloribus consectetur repudiandae quaerat quam. Modi aut dolore labore, dignissimos hic sint iure, 
+                        neque magni officiis, dolorem voluptate.</p>
+                </div>
             </div>
-            
+            <!-- two -->
+            <div class="dress">
+                <div class="dressImage"><img src="images/ethioPic11.jpg" alt=""> </div>
+                <div class="dressText">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, veniam aspernatur reiciendis 
+                        doloribus consectetur repudiandae quaerat quam. Modi aut dolore labore, dignissimos hic sint iure, 
+                        neque magni officiis, dolorem voluptate.</p>
+                </div>
+            </div>
+            <!-- three -->
+            <div class="dress">
+                <div class="dressImage"><img src="images/ethioPic5.jpg" alt=""> </div>
+                <div class="dressText">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, veniam aspernatur reiciendis 
+                        doloribus consectetur repudiandae quaerat quam. Modi aut dolore labore, dignissimos hic sint iure, 
+                        neque magni officiis, dolorem voluptate.</p>
+                </div>
+            </div>
+            <!-- four -->
+            <div class="dress">
+                <div class="dressImage"><img src="images/ethioPic5.jpg" alt=""> </div>
+                <div class="dressText">
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, veniam aspernatur reiciendis 
+                        doloribus consectetur repudiandae quaerat quam. Modi aut dolore labore, dignissimos hic sint iure, 
+                        neque magni officiis, dolorem voluptate.</p>
+                </div>
+            </div>
         </div>
-        <!-- two -->
-       <!--  <div class="dress"> -->
-            <div class="dress">
-                <div class="dressImage"><img src="images/ethioPic1.jpg" alt=""></div>
-                <div class="dressText">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit eaque ipsa debitis consequuntur 
-                        maiores error ullam nemo, earum, porro laudantium, blanditiis cumque dolore temporibus aperiam illum 
-                        neque recusandae excepturi.</p>
-                </div>
-                
+        <!-- footer -->
+        <div class="footer">
+            <div class="footerFrame">
+                <div class="footerLinks"><a href="https://www.bbc.com" target="_block">AGB</a> </div>
+                <div class="footerLinks"><a href="https://www.bbc.com" target="_block">Dataschutz</a> </div>
+                <div class="footerLinks"><a href="https://www.bbc.com" target="_block">Impressum</a> </div>
             </div>
-       <!--  </div> -->
-        <!-- three -->
-        <!-- <div class="dress"> -->
-            <div class="dress">
-                <div class="dressImage"><img src="images/ethioPic5.jpg" alt=""></div>
-                <div class="dressText">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit eaque ipsa debitis consequuntur 
-                        maiores error ullam nemo, earum, porro laudantium, blanditiis cumque dolore temporibus aperiam illum 
-                        neque recusandae excepturi.</p>
-                </div>
-                
-            </div>
-        <!-- </div> -->
-        <!-- four -->
-        <!-- <div class="dress"> -->
-            <div class="dress">
-                <div class="dressImage"><img src="images/ethioPic11.jpg" alt=""></div>
-                <div class="dressText">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat sit eaque ipsa debitis consequuntur 
-                        maiores error ullam nemo, earum, porro laudantium, blanditiis cumque dolore temporibus aperiam illum 
-                        neque recusandae excepturi.</p>
-                </div>
-                
-            </div>
-        <!-- </div> -->
-    </div>
-    <!-- footer -->
-<div class="footer">
-    <div class="footerFrame">
-    <div class="footerLinks"><a href="https://www.bbc.com" target="_block">AGB</a> </div>
-    <div class="footerLinks"><a href="https://www.bbc.com" target="_block">Dataschutz</a> </div>
-    <div class="footerLinks"><a href="https://www.bbc.com" target="_block">Impressum</a> </div>
-</div>
-<p><i class="fa fa-copyright" aria-hidden="true"></i>  Frauke 2021</p>
-</div>
+            <p><i class="fa fa-copyright" aria-hidden="true"></i>  Frauke 2021</p>
+        </div>
+    </section>
+    
+    
     
 </body>
 </html>
