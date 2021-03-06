@@ -52,6 +52,11 @@
      text-align: justify;
      padding: 10px;
  }
+ /* headings */
+ .dressHeading, .trousersHeading, .accessoriesHeading {
+    font-size: 25px;
+    font-weight: bold;
+ }
  /* dress frame */
  .dressFrame{
      width: 92%;
@@ -271,7 +276,167 @@
 .footer p {
     color: white;
 }
+/* FAQ Frame, dress*/
+.FaqContainer{
+    border: 1px solid black;
+    box-shadow: 2px 1px 2px black;
+    width: 60%;
+    min-height: 200px;
+    margin-left: 25%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dressFaq{
+    width: 94%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.showDressText{
+    border: 1px solid blue;
+    width: 92%;
+    margin-right: 4%;
+    min-height: 600px;
+    position: absolute;
+    background: rgba(3,45,77,1);
+    color: white;
+    margin-top: -20%;
+    opacity: 100;
+}
+.close{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.quizList{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
+/* FAQ dress1 */
+.FaqContainer1{
+    border: 1px solid black;
+    box-shadow: 2px 1px 2px black;
+    width: 60%;
+    min-height: 200px;
+    margin-left: 25%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dressFaq1{
+    width: 94%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.showDressText1{
+    border: 1px solid blue;
+    width: 92%;
+    margin-right: 4%;
+    min-height: 600px;
+    position: absolute;
+    background: rgba(3,45,77,1);
+    color: white;
+    margin-top: -20%;
+    opacity: 100;
+}
+.close1{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.quizList1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
 
+/* FAQ dress-2 */
+.FaqContainer2{
+    border: 1px solid black;
+    box-shadow: 2px 1px 2px black;
+    width: 60%;
+    min-height: 200px;
+    margin-left: 25%;
+    margin-top: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dressFaq2{
+    width: 94%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.showDressText2{
+    border: 1px solid blue;
+    width: 92%;
+    margin-right: 4%;
+    min-height: 600px;
+    position: absolute;
+    background: rgba(3,45,77,1);
+    color: white;
+    margin-top: -20%;
+    opacity: 100;
+    z-index: 100;
+}
+.close2{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.quizList2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1%;
+}
+/*  */
+.trousersFaq{
+    width: 94%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+.accessoriesFaq{
+    width: 94%;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+/* accessories click function */
+.showDressText, .showDressText1, .showDressText2{
+    display: none;
+} 
+.close, .close1, .close2 {
+    padding: 2px 8px;
+    border-radius: 50%;
+    border: 1px dashed white;
+    background: black;
+}
 /* mediaquery */
 @media only screen and (max-width: 600px) {
     body {
